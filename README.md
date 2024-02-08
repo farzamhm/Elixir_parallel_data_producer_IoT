@@ -1,4 +1,4 @@
-# DataSimulatorRedis
+# DataSimulator2Redis
 ## Description
 
 A combination of Redis and an Elixir based data simulator. It simulates a configurable number of readings for a configurable number of fake devices.
