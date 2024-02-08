@@ -11,7 +11,7 @@ The application is setup to create a docker container, but it can be also be run
 
 The configuration variables that need to be filled out:  
  * `NUMBER_OF_PROJECTS` - The number of simulated projects to create, stored as individual keys
- * `NUMBER_OF_PROJECTS` - The number of points to created simulated data for, per project
+ * `NUMBER_OF_POINTS` - The number of points to created simulated data for, per project
  * `Delay` - The number of seconds to delay between the start of one population cycle to the start of the next
  * `REDIS_HOST` - The Redis host address to send the simulated data to. Keep it at `127.0.0.1` if you are using the full docker container version of this app.
   
