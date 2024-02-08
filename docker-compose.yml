@@ -1,0 +1,10 @@
+version: '3.5'
+
+services:
+  data_simulator_redis:
+    image: "data_simulator_redis:latest"
+    user: root
+    ports:
+    - "6379:6379"
+    env_file:
+    - config/docker.env
